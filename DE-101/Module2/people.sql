@@ -1,0 +1,5 @@
+DROP TABLE IF EXISTS stg.people;
+CREATE TABLE stg.people(
+   person VARCHAR(17) NOT NULL PRIMARY KEY
+  ,region VARCHAR(7) NOT NULL
+);
